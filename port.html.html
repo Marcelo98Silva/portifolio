@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            max-width: auto;
+            border-radius: 50%;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+            background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%,
+             #301657 66.67%, #121056 83.33%, #000d56 100%);
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+            background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%,
+             #301657 66.67%, #121056 83.33%, #000d56 100%);
+        }
+
+        .paragrafoBrancos {
+            background-color: white;
+           
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color:black !important;
+        }
+
+        .corPrimaria {
+            background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%,
+             #301657 66.67%, #121056 83.33%, #000d56 100%);
+        }
+
+        .itemMenu {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#000d56">
+        <a class="navbar-brand" href="#" style=color:white>Marcelo Silva</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#projetos" class="nav-link" style=color:white> Fotos e Videos</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="perfil.jpeg" class="foto-perfil" style="height: 100px;" alt="Responsive image">
+            <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Marcelo Silva</h1>
+            <p class="lead" style="color:white !important;">Professor Capoeira - Programador e Tecnico de Informatica
+            </p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="#"><i style="color:white" class="fab fa-github"></i></a>
+            <a href="#"><i style="color:white" class="fab fa-twitter"></i></a>
+            <a href="#"><i style="color:white" class="fab fa-instagram"></i></a>
+            <a href="#"><i style="color:white" class="fab fa-facebook"></i></a>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light " id="Atividades">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Coisas que gosto de Fazer</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="capoeira.jpeg" data-holder-rendered="true"
+                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um video que eu estou em um encontro de Capoeira em preparação para formatura batizado e troca de cordas 
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://youtu.be/LNwGUVV9csA"><button type="button" class="btn btn-sm btn-outline-success">Ver Videos</button></a>
+
+                                </div>
+                                <small class="text-muted">Encontro Capoeira</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="junina.jpeg" data-holder-rendered="true"
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">
+                                A qui é um video em que participei de um grupo junino onde agente se apresentou em um arraia escolar.
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <a href="https://youtu.be/uvntVEgWx8s"><button type="button" class="btn btn-sm btn-outline-success">Ver Videos</button>
+                            
+                                </div>
+                                <small class="text-muted">Apresentação junina</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead paragrafoBrancos">Olá meu nome é marcelo sou professor de capoeira e trabalho na área da educação a mais de 3 anos, 
+                sou programador e tecnico de Informatica, sou apaixonado por esportes aventuras e dança, gosto de esta com os amigos e compartilha
+                bons momentos.  </p>
+        </div>
+    </section>
+
+    <section Id="depoimentos">
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center jumbotron-heading titulosVerdes ">Depoimentos</h2>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">É um profissional com um foco enorme em suas tarefas diárias, alem da
+                        simples dedicação do dia-a-dia na empresa.</p>
+                    <footer class="blockquote-footer">AMB<cite title="Source Title"> Amigos Do Bem</cite>
+                    </footer>
+                </blockquote>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Um profissional super focado, dedicado, pontual com seus compromissos e ético.
+                        Interessado e super empolgado na área em que atua e nas demais, o que o torna um profissional
+                        pró-ativo e altamente eficiente.</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section Id="contato" class="corPrimaria">
+        <div class="corPrimaria">
+            <div class="container-fluid">
+                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+                        href="mailto:seuemail@hotmail.com">marcelojaco36@gmail.com</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="background-color:#000d56;padding:0px; margin:0px">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright - 2022 Portfólio
+        </p>
+    </footer>
+
+</body>
+
+</html>
